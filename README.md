@@ -1,55 +1,55 @@
 # 🧠 DataloAI
 
-**DataloAI** é uma plataforma inteligente de análise de dados que transforma informações brutas em gráficos interativos, relatórios e insights com apoio de inteligência artificial. Conecte sua base de dados (como Shopify, VTex ou arquivos CSV), e deixe que a IA gere visualizações e análises automaticamente para você.
+**DataloAI** is a smart data analysis platform that turns raw information into interactive charts, reports, and insights using artificial intelligence. Connect your data sources (like Shopify, VTex, or CSV files), and let the AI automatically generate visualizations and analyses for you.
 
 ---
 
-## 🚀 Funcionalidades
+## 🚀 Features
 
-- 📊 Geração automática de gráficos a partir de dados conectados  
-- 💬 Interação via linguagem natural: "Mostre as vendas por produto"  
-- 🛒 Suporte a dados de e-commerce (vendas, produtos, clientes)  
-- 🌐 Interface web simples com Streamlit  
-- 🤖 IA integrada com OpenAI para gerar análises  
+- 📊 Automatic chart generation from connected data  
+- 💬 Natural language interaction: "Show sales by product"  
+- 🛒 E-commerce data support (sales, products, customers)  
+- 🌐 Simple web interface built with Streamlit  
+- 🤖 OpenAI-powered insights and analysis  
 
 ---
 
-## 📁 Estrutura do Projeto
+## 📁 Project Structure
 
 ```text
 dataloai/
-├── src/               # Código-fonte principal
-├── data/              # Dados simulados (CSV, JSON etc.)
-├── notebooks/         # Prototipações e testes
-├── requirements.txt   # Bibliotecas necessárias
-└── README.md          # Este arquivo
+├── src/               # Main source code
+├── data/              # Simulated data (CSV, JSON, etc.)
+├── notebooks/         # Prototypes and tests
+├── requirements.txt   # Dependencies
+└── README.md          # This file
 ```
 
 ---
 
-## ⚙️ Como rodar localmente
+## ⚙️ How to Run Locally
 
-1. Clone o repositório:
+1. Clone the repository:
 
 ```bash
-git clone https://github.com/seu-usuario/dataloai.git
+git clone https://github.com/your-user/dataloai.git
 cd dataloai
 ```
 
-2. Crie um ambiente virtual:
+2. Create a virtual environment:
 
 ```bash
 python -m venv venv
-source venv/bin/activate  # ou venv\Scripts\activate no Windows
+source venv/bin/activate  # or venv\Scripts\activate on Windows
 ```
 
-3. Instale as dependências:
+3. Install the dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Execute a aplicação:
+4. Run the application:
 
 ```bash
 streamlit run src/app.py
@@ -57,9 +57,9 @@ streamlit run src/app.py
 
 ---
 
-## 🔐 API Key da OpenAI
+## 🔐 OpenAI API Key
 
-Crie um arquivo `.env` com sua chave da OpenAI:
+Create a `.env` file and add your OpenAI key:
 
 ```env
 OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxx
